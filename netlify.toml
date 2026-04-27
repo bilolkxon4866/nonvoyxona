@@ -1,11 +1,6 @@
 [build]
-  # Qaysi papka ichida build qilishni aytamiz
   base = "frontend"
-  
-  # Build qilish buyrug'i
   command = "npm run build"
-  
-  # Natija qaysi papkada chiqishini aytamiz
   publish = "dist"
 
 [[redirects]]
