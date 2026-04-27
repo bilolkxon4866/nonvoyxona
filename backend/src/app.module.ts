@@ -23,7 +23,7 @@ import { HrModule } from './hr/hr.module';
         
         return {
           type: 'postgres',
-          url: process.env.DATABASE_URL,
+          url: 'postgresql://neondb_owner:npg_wIs23oxDJkBd@ep-mute-dawn-anztr4jz.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require',
           autoLoadEntities: true,
           synchronize: true,
           
