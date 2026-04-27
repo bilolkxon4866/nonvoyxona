@@ -563,3 +563,8 @@ tbody tr:hover td { background: var(--bg-secondary); }
   .stats-grid { grid-template-columns: 1fr 1fr; }
   .grid-2, .grid-3, .grid-1-2, .grid-2-1 { grid-template-columns: 1fr; }
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
